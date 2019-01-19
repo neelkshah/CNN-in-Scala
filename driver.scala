@@ -1,8 +1,5 @@
-package pplAssignment
-/*
-DONT EDIT THIS CODE. ANOTHER DRIVER WITH SIMILAR STRUCTURE WILL BE USED TO CHECK YOUR CODE
-ONLY CHANGE <Student_ID> to Your ID
-*/
+package <package-name-goes-here>			//Enter package name here
+
 object Driver{
 
   def main(args:Array[String]){
@@ -68,33 +65,33 @@ object Driver{
   }
 
     //Dot product
-    val res1=<STUDENT_ID>.dotProduct(kernel1,kernel2)
+    val res1=<cnn>.dotProduct(kernel1,kernel2)
 
     // println(prod)
     //convolution 
-    val res2=<STUDENT_ID>.convolute(image,kernel1,imagesize,kernel1size) 
+    val res2=<cnn>.convolute(image,kernel1,imagesize,kernel1size) 
 
     // println(result)
 
     //activation 
-    val res3=<STUDENT_ID>.activationLayer((x:Double)=>if(x>150) x else 0,image) 
+    val res3=<cnn>.activationLayer((x:Double)=>if(x>150) x else 0,image) 
 
     // println(result)
 
     //single pooling
 
-    val res4=<STUDENT_ID>.singlePooling(max,poolmat,size)
+    val res4=<cnn>.singlePooling(max,poolmat,size)
     //pooling
 
-    val res5=<STUDENT_ID>.poolingLayer(max,image,size) // max is a function
+    val res5=<cnn>.poolingLayer(max,image,size) // max is a function
 
     //Normalize
 
-    val res6=<STUDENT_ID>.normalise(nmat) 
+    val res6=<cnn>.normalise(nmat) 
 
     //mixed layer
 
-    val res7=<STUDENT_ID>.mixedLayer(image,kernel1,imagesize,kernel1size,(x:Double)=>x,max,size) // max is a function
+    val res7=<cnn>.mixedLayer(image,kernel1,imagesize,kernel1size,(x:Double)=>x,max,size) // max is a function
 
     //assembly layer
     def time[R](block: => R): R = {
@@ -106,8 +103,8 @@ object Driver{
 }
 // THIS COMMENTED SECTION CAN BE REMOVED TO TIME YOUR CODE. TOP LINE AFTER REMOVING THIS WILL BE YOUR TIMED OUTPUT. 
 //  COMMENT NEXT LINE WHEN YOU UNCOMMENT THIS
-// val res8=time{<STUDENT_ID>.assembly(image,imagesize,w1,w2,b,kernel1,kernel1size,kernel2,kernel2size,kernel3,kernel3size,size)}
-    val res8=<STUDENT_ID>.assembly(image,imagesize,w1,w2,b,kernel1,kernel1size,kernel2,kernel2size,kernel3,kernel3size,size)
+// val res8=time{<cnn>.assembly(image,imagesize,w1,w2,b,kernel1,kernel1size,kernel2,kernel2size,kernel3,kernel3size,size)}
+    val res8=<cnn>.assembly(image,imagesize,w1,w2,b,kernel1,kernel1size,kernel2,kernel2size,kernel3,kernel3size,size)
 
     println("res1")
     println(res1)
