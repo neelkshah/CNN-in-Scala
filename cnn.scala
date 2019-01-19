@@ -1,10 +1,10 @@
 package <package-name-goes-here>    //Enter package name here
 
 object cnn{
-  /** NAME:           SHAH NEEL KAUSHIK
-    * ID:             2016A7PS0076P
-    * SUBMITTED:      02 NOVEMBER 2018
-    * PPL ASSIGNMENT: CNN IN SCALA*/
+  /** NAME:       SHAH NEEL KAUSHIK
+    * ID:         2016A7PS0076P
+    * SUBMITTED:  02 NOVEMBER 2018
+    * PRINCIPLES OF PROGRAMMING LANGUAGES: CNN IN SCALA*/
 
 
   /**Private helper function to slice the image matrix. Takes the matrix, starting row and column, and number of rows and columns required.
