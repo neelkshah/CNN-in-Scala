@@ -1,6 +1,6 @@
-package pplAssignment
+package <package-name-goes-here>    //Enter package name here
 
-object F2016A7PS0076P{
+object cnn{
   /** NAME:           SHAH NEEL KAUSHIK
     * ID:             2016A7PS0076P
     * SUBMITTED:      02 NOVEMBER 2018
